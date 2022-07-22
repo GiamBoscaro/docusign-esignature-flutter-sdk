@@ -9,47 +9,32 @@ For more information, please visit [https://developers.docusign.com/](https://de
 
 ## Requirements
 
-Dart 2.12 or later
+Dart 2.17 or later
 
 ## Installation & Usage
 
-### Github
-If this Dart package is published to Github, add the following dependency to your pubspec.yaml
-```
-dependencies:
-  docusign_esignature_flutter_sdk:
-    git: https://github.com/GIT_USER_ID/GIT_REPO_ID.git
-```
+### pub.dev
 
-### Local
-To use the package in your local drive, add the following dependency to your pubspec.yaml
+Add the following dependency to your pubspec.yaml
+
 ```
 dependencies:
   docusign_esignature_flutter_sdk:
-    path: /path/to/docusign_esignature_flutter_sdk
 ```
 
 ## Tests
 
-TODO
+To run all tests:
+
+```shell
+flutter test
+```
 
 ## Getting Started
 
 Please follow the [installation procedure](#installation--usage) and then run the following:
 
 ```dart
-import 'package:docusign_esignature_flutter_sdk/api.dart';
-
-
-final api_instance = AccountBrandsApi();
-final accountId = accountId_example; // String | The external account number (int) or account ID GUID.
-final brandId = brandId_example; // String | The ID of the brand.
-
-try {
-    api_instance.brandDeleteBrand(accountId, brandId);
-} catch (e) {
-    print('Exception when calling AccountBrandsApi->brandDeleteBrand: $e\n');
-}
 
 ```
 
@@ -985,13 +970,7 @@ Class | Method | HTTP request | Description
  - [Workspaces](doc//Workspaces.md)
  - [Zip](doc//Zip.md)
 
-
-## Documentation For Authorization
-
- All endpoints do not require authorization.
-
-
 ## Author
 
-devcenter@docusign.com
+DocuSign <devcenter@docusign.com>
 
