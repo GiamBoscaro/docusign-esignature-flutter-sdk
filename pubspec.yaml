@@ -1,9 +1,9 @@
 name: docusign_esignature_flutter_sdk
 description: Implementation of DocuSign eSignature APIs in Flutter
 version: 1.0.0
-homepage:
-documentation:
-repository:
+homepage: https://github.com/GiamBoscaro/docusign-sdk-openapi-generator#readme
+documentation: https://github.com/GiamBoscaro/docusign-esignature-flutter-sdk#readme
+repository: https://github.com/GiamBoscaro/docusign-esignature-flutter-sdk
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
